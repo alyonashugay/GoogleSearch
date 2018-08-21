@@ -7,3 +7,5 @@ Search button
 ----------------
 * Navigate to "http://www.google.com"
 * Verify search button
+* Verify Lucky button
+* Enter "Hello World" in search field
