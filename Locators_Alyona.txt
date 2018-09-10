@@ -1,0 +1,50 @@
+1. Search area
+//*[@id="js_h"]
+#js_h
+
+2. Search button
+//*[@method="get"]/button
+form[method="get"]>button
+
+3. Available on iOS
+//*[@id="ios"]
+#ios
+
+4. Logo
+//*[@id="logo"]        
+div[id="logo"]
+
+//*[@class="touchOn" and @id="logo"]
+div[class="touchOn"][id="logo"]
+
+5.'Buy now' button
+//*[@id="cashier_buy"] 
+div[id="cashier_buy"]
+
+6. Get Coins list
+//label[@class="select_expandLabel"]
+.select_expandLabel
+
+7. Fan page
+//*[@id="fanPage"]
+a[id="fanPage"]
+
+//*[@href="https://www.facebook.com/houseoffungames"]
+a[href="https://www.facebook.com/houseoffungames"]
+
+8. Title "House of Fun - Slot Machines"
+//*[@title="House of Fun - Slot Machines"]
+a[title="House of Fun - Slot Machines"]
+
+9. Like Page (in the bottom)
+//*[@class="pluginConnectButton"]/a[1]
+div.pluginConnectButton>a:nth-child(1)
+
+
+10. Fins us on Facebook (in the bottom)
+.//span[text()='Find us on Facebook']
+#u_0_1c:nth-child(2)>a>div>span
+
+
+
+
